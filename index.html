@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#192A38">
+  <title>Website Title</title>
+  <meta name="description" content="Add your website description here.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="wordmark" href="#home">Your Logo</a>
+      <nav aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#features">Explore</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="container hero-content">
+        <p class="eyebrow">Your introductory text goes here</p>
+        <h1>Your Main Headline Goes Here.</h1>
+        <p class="hero-lead">Add a short introduction to your website here. This is placeholder text that you can replace with your own words whenever you're ready.</p>
+        <a class="button button-light" href="#about">Learn more</a>
+      </div>
+    </section>
+
+    <section class="section intro" id="about">
+      <div class="container narrow">
+        <p class="eyebrow">Section heading</p>
+        <h2>Add Your Story Here</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae neque ut lacus luctus malesuada. Replace this paragraph with your own text.</p>
+        <p>Use this space to introduce your idea, explain what matters to you, or share whatever you would like visitors to know.</p>
+      </div>
+    </section>
+
+    <section class="section feature-section" id="features">
+      <div class="container">
+        <p class="eyebrow">Another section</p>
+        <h2>Something Worth Sharing</h2>
+        <div class="cards">
+          <article class="card"><div class="image-placeholder">Your image here</div><h3>First Heading</h3><p>Add a few sentences here. You can replace this text and add your own images later.</p></article>
+          <article class="card"><div class="image-placeholder">Your image here</div><h3>Second Heading</h3><p>Add another description here. Everything on this page is editable HTML.</p></article>
+          <article class="card"><div class="image-placeholder">Your image here</div><h3>Third Heading</h3><p>Use this area for a feature, an announcement, or something you want to highlight.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container narrow">
+        <p class="eyebrow">Get in touch</p>
+        <h2>Your Call to Action Goes Here</h2>
+        <p>Write your invitation, contact information, or next steps here.</p>
+        <a class="button button-dark" href="mailto:replace-me@example.com">Contact us</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="container"><span>© <span id="year">2026</span> Your Brand Name</span><span>Footer text goes here</span></div></footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
